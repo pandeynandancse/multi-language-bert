@@ -1,0 +1,1 @@
+train.py--- >train and val sampler ----- drop_last in train loader --- change device ---- no need to transfer/move model on deevice  ---- training steps will be changed i.e. will be devided by no of cores you have---- lr will be changed --- way of saving model will be changed ----- optimizer step will be changed(engine.py)
